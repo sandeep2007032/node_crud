@@ -39,5 +39,5 @@ app.use(testRouter);
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server started at http://localhost:${PORT}`);
+    console.log(`Server started at :${PORT}`);
 });
